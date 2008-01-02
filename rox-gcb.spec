@@ -6,6 +6,7 @@ Group:		Graphical desktop/Other
 License:	GPL
 URL:		ftp://ftp.atmsk.ru/rox/
 Source0:	%{name}-%{version}.tar.gz
+BuildRoot:	%_tmppath/%name-%version
 BuildRequires:	libgtksourceview-devel
 Requires:	rox
 
