@@ -1,6 +1,6 @@
 Name:		rox-gcb
 Version:	0.23
-Release:	%mkrel 5
+Release:	%mkrel 7
 Summary:	Clipboard rox-applet
 Group:		Graphical desktop/Other
 License:	GPL
