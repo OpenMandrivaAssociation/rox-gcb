@@ -40,3 +40,31 @@ rm -rf %buildroot
 %{_appsdir}/%name/Linux-*
 %{_appsdir}/%name/gcb.png
 
+
+
+%changelog
+* Tue Sep 08 2009 Thierry Vignaud <tvignaud@mandriva.com> 0.23-8mdv2010.0
++ Revision: 433388
+- rebuild
+
+* Wed Jul 23 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.23-7mdv2009.0
++ Revision: 242556
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+
+* Sun Sep 03 2006 Götz Waschk <waschk@mandriva.org> 0.23-5mdv2007.0
+- Rebuild
+
+* Thu Sep 01 2005 GÃ¶tz Waschk <waschk@mandriva.org> 0.23-4mdk
+- rebuild to remove glitz dep
+
+* Wed Aug 24 2005 GÃ¶tz Waschk <waschk@mandriva.org> 0.23-3mdk
+- Rebuild
+
+* Fri Aug 13 2004 Götz Waschk <waschk@linux-mandrake.com> 0.23-2mdk
+- rebuild
+
